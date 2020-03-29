@@ -1,0 +1,28 @@
+h1 {
+    color: white;
+    font-size: 40px;
+}
+h2 {
+    color: white;
+}
+img {
+width:150px;
+border:10px solid white;
+rotate: 90deg;
+}
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.flexItem {
+    display:flex;
+    justify-content: center;}
+.flexContainerA {
+    padding: 5px;
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
