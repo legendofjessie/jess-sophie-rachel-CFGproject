@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <title>Meet Your Biscuit Afficionados!</title>
+        <style>
+        body {
+            background-color:skyblue;
+            font-family: "Georgia", cursive, serif;
+            
+            }
+            </style>
+             <style>
+        image {
+            width:250
+        }
+        .img__description {
+  position: absolute;
+  padding: 50px;
+  text-size-adjust: 24pt;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: pink;
+  color: white;
+  visibility: hidden;
+  font-family: Georgia;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.flexItem:hover .img__description {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+
+
+    </style>
+            
+    </head>
+    <body>
+        <div id="navbar">
+        <a href="index.html">Back To Home</a>
+    </div>
+        <h1 align="center">Meet Your Biscuit Afficionados!</h1>
+        <p><h2>We started this site because we have a love for biscuits of all shapes and sizes.</h2></P>
+        <div class="flexContainerB">
+          <div class="flexItem">
+             <img src=img/rachel.jpg alt="Rachel" class="image"/>
+                <div class="img__description"><p>Rachel</p><p>Favourite biscuit: Chocolate chip cookie</p></div>
+          </div>
+            <div class="flexItem">
+            <img src=img/sophie.jpg alt="Sophie" class="image"/>
+                <div class="img__description"><p>Sophie</p><p>Favourite biscuit: Chocolate digestive</p></div>
+            </div>
+        <div class="flexItem">
+            <img src=img/jess.jpg alt="Jess" class="image"/>
+                <div class="img__description"><p>Jess</p><p>Favourite biscuit: Pink wafer</p></div>
+        </div>
+         
+        </div>
+        
+        
+    <h2>We would love to hear any feedback you have, please send any comments/ suggestions to mail@biccypedia.com</h2>
+        
+    </body>
+</html>
